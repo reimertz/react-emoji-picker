@@ -35,7 +35,7 @@ activeTabStyle.borderBottom = '3px solid white';
 var bodyStyle = {
   display: 'flex',
   width: '100%',
-  flexWrap: 'wrap';
+  flexWrap: 'wrap',
   margin: '0.3em 0 0',
   overflowY: 'scroll',
 }
