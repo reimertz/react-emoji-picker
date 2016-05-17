@@ -29,12 +29,14 @@ var activeTabStyle = {};
 for (var key in tabStyle) {
   activeTabStyle[key] = tabStyle[key];
 }
+
 activeTabStyle.borderBottom = '3px solid white';
 
 var bodyStyle = {
-  display: 'block',
+  display: 'flex',
+  width: '100%',
+  flexWrap: 'wrap';
   margin: '0.3em 0 0',
-  maxHeight: '12.5em',
   overflowY: 'scroll',
 }
 
