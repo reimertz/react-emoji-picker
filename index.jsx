@@ -175,8 +175,7 @@ module.exports = React.createClass({
     return (
       React.createElement("span", {style: this.props.style},
         this.header(),
-        this.body(),
-        this.footer()
+        this.body()
       )
     )
   }
